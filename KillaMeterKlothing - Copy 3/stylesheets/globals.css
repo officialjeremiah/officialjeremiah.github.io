@@ -1,0 +1,32 @@
+*   {
+    font-family: 'FontName', Helvetica, Arial, sans-serif;
+    }
+    
+    
+    
+    @font-face  {
+        font-family: FontName;
+        src: url('fonts/EmblemaOne-Regular.ttf');
+        src: url('fonts/EmblemaOne-Regular.ttf') format('embedded-opentype'),
+        url('fonts/EmblemaOne-Regular.ttf') format('woff2'),
+        url('fonts/EmblemaOne-Regular.ttf') format('woff'),
+        url('fonts/EmblemaOne-Regular.ttf') format('truetype');
+        }
+
+        .container {
+            width: 500px;
+            margin: 0 auto;
+            text-align: center;
+          }
+          
+          .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 10px;
+          }
+          
+          .grid-item {
+            border: none;
+            text-align: center;
+            padding: 20px;
+          }

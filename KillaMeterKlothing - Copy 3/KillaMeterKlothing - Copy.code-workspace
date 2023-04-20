@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"name": "KillaMeterKlothing - Copy",
+			"path": "."
+		}
+	],
+	"settings": {
+		"livePreview.defaultPreviewPath": "/index.html",
+		"liveServer.settings.port": 5502
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+		
+		]
+	}
+}
